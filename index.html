@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QianGui Matrix | 顶级 Slots 流量全球供应商</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&family=Noto+Sans+SC:wght@100;400;900&display=swap');
+        
+        :root {
+            --neon: #00f2ff;
+            --deep: #05070a;
+            --purple: #7000ff;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: var(--deep);
+            color: #fff;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* 极光动效背景 */
+        .aurora-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(112, 0, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(0, 242, 255, 0.1) 0%, transparent 50%);
+            z-index: -1;
+        }
+
+        .title-font { font-family: 'Space Grotesk', sans-serif; letter-spacing: -2px; }
+
+        /* 高级玻璃卡片 */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: 0.5s cubic-bezier(0.2, 1, 0.2, 1);
+        }
+        .glass-panel:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--neon);
+            transform: translateY(-5px);
+        }
+
+        /* 进度条装饰 */
+        .line-accent {
+            width: 40px;
+            height: 2px;
+            background: var(--neon);
+            margin-bottom: 20px;
+        }
+
+        .gradient-border {
+            border-image: linear-gradient(to right, var(--neon), var(--purple)) 1;
+        }
+
+        /* 粒子感文字 */
+        .glow-text {
+            text-shadow: 0 0 30px rgba(0, 242, 255, 0.5);
+        }
+
+        /* 针对长页面的平滑滚动指示 */
+        .scroll-indicator {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-10px);}
+            60% {transform: translateY(-5px);}
+        }
+    </style>
+</head>
+<body>
+
+<div class="aurora-bg"></div>
+
+<nav class="fixed top-0 w-full z-[100] px-8 py-6 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-[1600px] mx-auto flex justify-between items-center">
+        <div class="flex items-center gap-4">
+            <img src="最新.jpeg" class="h-10 w-10 rounded-full border border-cyan-500 shadow-[0_0_15px_rgba(0,242,255,0.4)]">
+            <span class="text-xl font-black title-font tracking-tighter uppercase italic">QianGui Matrix</span>
+        </div>
+        <div class="hidden lg:flex gap-12 text-[10px] uppercase tracking-[0.3em] font-bold text-gray-400">
+            <a href="#about" class="hover:text-cyan-400 transition">实力背书</a>
+            <a href="#tech" class="hover:text-cyan-400 transition">技术中台</a>
+            <a href="#service" class="hover:text-cyan-400 transition">核心业务</a>
+            <a href="#partner" class="hover:text-cyan-400 transition">全球招募</a>
+        </div>
+        <a href="https://t.me/ctfc6868" class="bg-white text-black px-6 py-2 text-xs font-black uppercase tracking-widest hover:bg-cyan-400 transition">
+            联系核心 @ctfc6868
+        </a>
+    </div>
+</nav>
+
+<section class="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
+    <div class="animate__animated animate__fadeIn">
+        <h1 class="text-center">
+            <span class="block text-[12px] md:text-[16px] tracking-[10px] text-cyan-500 font-bold mb-6 uppercase">Global Traffic Monopoly</span>
+            <span class="text-6xl md:text-[140px] font-black title-font leading-none glow-text">
+                POWERING<br><span class="text-cyan-500">SLOTS</span> EMPIRE
+            </span>
+        </h1>
+        <p class="max-w-3xl mx-auto text-center mt-12 text-gray-500 text-lg md:text-xl font-light leading-relaxed">
+            深耕 Google 投放 <span class="text-white font-bold">5年</span>，不仅仅是代投团队，更是具备 <span class="text-white font-bold">100+ 优化师</span>、
+            <span class="text-white font-bold">千万级月消耗能力</span>的流量矩阵。在巴西、印度、孟加拉，我们就是增长的代名词。
+        </p>
+    </div>
+    
+    <div class="mt-20 flex flex-col items-center">
+        <a href="https://t.me/ctfc6868" class="group relative px-20 py-8 border-2 border-white/20 hover:border-cyan-500 transition-all duration-500">
+            <span class="relative z-10 text-2xl font-black tracking-[5px]">立刻开启增长之旅</span>
+            <div class="absolute inset-0 bg-cyan-500 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+        </a>
+        <div class="scroll-indicator mt-16 opacity-30">
+            <p class="text-[10px] uppercase tracking-widest mb-2">SCROLL TO EXPLORE</p>
+            <div class="w-px h-12 bg-white mx-auto"></div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="max-w-[1400px] mx-auto px-6 py-32 border-t border-white/5">
+    <div class="grid lg:grid-cols-2 gap-20 items-center">
+        <div>
+            <div class="line-accent"></div>
+            <h2 class="text-5xl font-black mb-8 leading-tight italic">
+                5年沉淀<br>只做最硬核的 Slots 投放
+            </h2>
+            <div class="space-y-6 text-gray-400 text-lg font-light">
+                <p>在瞬息万变的出海领域，经验是唯一的护城河。千硅团队成立于 2021 年，核心成员均拥有 8 年以上数字营销背景。</p>
+                <p>我们管理着横跨全球的巨量广告账户，月均消耗突破 <span class="text-white font-bold">千万级美金</span>。这不是数字，而是我们对 Google 算法极致解构的战果。</p>
+            </div>
+            <div class="grid grid-cols-2 gap-8 mt-12">
+                <div class="p-8 bg-white/5 rounded-2xl">
+                    <div class="text-4xl font-black text-cyan-500 mb-2 italic">100+</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">专业资深优化师</div>
+                </div>
+                <div class="p-8 bg-white/5 rounded-2xl">
+                    <div class="text-4xl font-black text-cyan-500 mb-2 italic">$10M+</div>
+                    <div class="text-xs uppercase tracking-widest text-gray-500">月度峰值流水</div>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <div class="aspect-square glass-panel rounded-[50px] p-2 flex items-center justify-center">
+                <img src="最新.jpeg" class="w-full h-full object-cover rounded-[48px] opacity-80 grayscale hover:grayscale-0 transition duration-1000">
+            </div>
+            <div class="absolute -bottom-10 -left-10 bg-cyan-500 p-10 font-black text-black text-3xl italic animate-pulse">
+                TRUSTED BY<br>GLOBAL GIANTS
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tech" class="bg-[#080a0f] py-32 px-6">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-24">
+            <h2 class="text-6xl font-black title-font mb-4">TECH STACK</h2>
+            <p class="text-cyan-500 tracking-[5px] uppercase font-bold text-sm">不仅仅是代投 · 更是技术驱动</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-12 glass-panel">
+                <h3 class="text-2xl font-black mb-6 flex items-center gap-4">
+                    <span class="text-4xl">🧪</span> 素材实验室
+                </h3>
+                <p class="text-gray-500 leading-relaxed mb-6">
+                    自研 AI 创意引擎，日产 500+ 高转化视频与平面素材。针对不同文化背景（如巴西、孟加拉）进行像素级本地化优化，确保点击率领跑行业。
+                </p>
+            </div>
+            <div class="p-12 glass-panel">
+                <h3 class="text-2xl font-black mb-6 flex items-center gap-4">
+                    <span class="text-4xl">🛡️</span> 风险防御系统
+                </h3>
+                <p class="text-gray-500 leading-relaxed mb-6">
+                    独家包体加密与代码混淆技术。我们的上架实验室常备 <span class="text-white underline italic">5000+ 高权重包体</span>，支持极速下发，业务不间断是我们的基本底线。
+                </p>
+            </div>
+            <div class="p-12 glass-panel">
+                <h3 class="text-2xl font-black mb-6 flex items-center gap-4">
+                    <span class="text-4xl">📊</span> 自动化中台
+                </h3>
+                <p class="text-gray-500 leading-relaxed mb-6">
+                    自研账户管理系统，一键同步千万级账户数据。全自动 ROI 回传、动态出价调整，在毫秒级时间内完成对流量价值的精准定价。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="service" class="max-w-7xl mx-auto px-6 py-32">
+    <div class="line-accent mx-auto"></div>
+    <h2 class="text-center text-5xl font-black mb-24">核心业务生态系统</h2>
+
+    <div class="space-y-4">
+        <div class="group flex flex-col lg:flex-row gap-10 p-12 hover:bg-white/5 transition border-b border-white/5">
+            <div class="text-6xl font-black text-white/10 group-hover:text-cyan-500 transition duration-500">01</div>
+            <div class="flex-1">
+                <h3 class="text-3xl font-black mb-4 italic">顶级 Slots 代投服务</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                    精耕 ZJ/Slots 细分领域。我们拥有全套的巴西、印度、孟加拉投放白皮书。
+                    从受众画像到转化漏斗，全流程托管，你只需关心收成，剩下的交给我们。
+                </p>
+            </div>
+            <div class="flex items-center">
+                <a href="https://t.me/ctfc6868" class="px-8 py-4 border border-white text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition">查看案例</a>
+            </div>
+        </div>
+
+        <div class="group flex flex-col lg:flex-row gap-10 p-12 hover:bg-white/5 transition border-b border-white/5">
+            <div class="text-6xl font-black text-white/10 group-hover:text-cyan-500 transition duration-500">02</div>
+            <div class="flex-1">
+                <h3 class="text-3xl font-black mb-4 italic">上架包体供应链</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                    解决行业最痛点的“包体生存率”。提供极多、极稳、极速的上架资源。
+                    无论是 GP 还是外部渠道，我们的包体权重始终处于行业梯队前列。
+                </p>
+            </div>
+            <div class="flex items-center">
+                <a href="https://t.me/ctfc6868" class="px-8 py-4 border border-white text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition">资源库接入</a>
+            </div>
+        </div>
+
+        <div class="group flex flex-col lg:flex-row gap-10 p-12 hover:bg-white/5 transition border-b border-white/5">
+            <div class="text-6xl font-black text-white/10 group-hover:text-cyan-500 transition duration-500">03</div>
+            <div class="flex-1">
+                <h3 class="text-3xl font-black mb-4 italic">一手高返点账户资源</h3>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                    非二级代理，深度对接顶级渠道。针对白量及 ZJ 类投放，匹配专属政策优化户。
+                    返点比例极具优势，下户速度以小时计，确保资金利用率最大化。
+                </p>
+            </div>
+            <div class="flex items-center">
+                <a href="https://t.me/ctfc6868" class="px-8 py-4 border border-white text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition">获取报价</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="partner" class="py-40 bg-white text-black">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-6xl md:text-[80px] font-black title-font mb-12 tracking-tighter">JOIN THE MATRIX</h2>
+        <p class="text-2xl font-light mb-16 leading-relaxed">
+            我们不仅寻找客户，更在招募具备实力的<b>代投团队</b>与<b>项目方</b>共同掘金。
+            资源共享、技术输出、全球落地方案——千硅出海，是你出海蓝海最稳固的底牌。
+        </p>
+        <div class="flex flex-col md:flex-row justify-center gap-10">
+            <a href="https://t.me/ctfc6868" class="bg-black text-white px-16 py-8 text-2xl font-black uppercase tracking-widest hover:scale-105 transition duration-500">
+                对话商务核心
+            </a>
+            <div class="flex items-center justify-center text-left">
+                <div class="border-l-4 border-black pl-6">
+                    <p class="font-bold text-xl tracking-tighter uppercase">Telegram ID</p>
+                    <p class="text-3xl font-black">@ctfc6868</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-20 px-10 border-t border-white/5">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-10">
+        <div>
+            <div class="text-2xl font-black title-font mb-2">QIANGUI MATRIX</div>
+            <p class="text-gray-600 text-xs tracking-widest">© 2026 千硅出海. POWERED BY QIANGUI TECHNOLOGY HUB.</p>
+        </div>
+        <div class="flex gap-10 text-[10px] uppercase font-bold tracking-widest text-gray-500">
+            <span>Global Office: NY / KL / TOR</span>
+            <span>Privacy Policy</span>
+            <span>Terms of Matrix</span>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
